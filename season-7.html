@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Node 地下铁沙龙</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//g.alicdn.com/tb/nodejs-club/0.0.71/bundle.css">
+</head>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="250">
+
+  <header class="navbar navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="logo iconfont">&#xe602;</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      </div>
+      <nav id="page-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="scroll" href="#introduce" title="沙龙介绍">沙龙介绍</a>
+          </li>
+          <li>
+            <a class="scroll" href="#speaker" title="分享嘉宾">分享嘉宾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#arrangement" title="活动流程">活动流程</a>
+          </li>
+          <li>
+            <a class="scroll" href="#position" title="沙龙地点">沙龙地点</a>
+          </li>
+          <li>
+            <a class="scroll" href="#history" title="往期回顾">往期回顾</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container-fluid">
+    <div class="hero-content container">
+      <p class="lead">
+        Node 地下铁沙龙 #7
+      </p>
+      <h1>
+        Node.js 新生态
+      </h1>
+    </div>
+    <a class="credit-badge" href="https://unsplash.com/@hoanvokim?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Hoan Vo">
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+          <title>unsplash-logo</title>
+          <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z" />
+        </svg>
+      </span>
+      <span>Hoan Vo</span>
+    </a>
+  </section>
+  <section id="introduce" class="container">
+    <p>这一次，让我们聊聊 Node.js 新生态。</p>
+    <p>关于小程序云开发、IoT、SSR、应用治理，以及来自腾讯的新物种 —— Tars.js，</p>
+    <br>
+    <p>腾讯、ThoughtWorks、阿里巴巴的 4 位分享者，</p>
+    <p>期待和你交流碰撞层出不穷的 Node.js 新应用场景。</p>
+    <a class="register" href="https://list.youku.com/albumlist/show/id_51931458" title="观看本期视频" target="_blank">观看视频</a>
+    <a class="register" href="https://teamyi.com/s/personal/f443178238727e7c/91452470" title="下载 PPT" target="_blank">下载 PPT</a>
+  </section>
+  <section id="speaker" class="container">
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="//img.alicdn.com/tfs/TB1Bem0dMHqK1RjSZFgXXa7JXXa-386-386.png" alt="阿里巴巴国际倞羽">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          倞 羽 @阿里巴巴国际UED
+        </p>
+        <p class="title">渲染服务化的前世今生</p>
+        <p class="desc">基于 egg.js 的北斗架构的诞生过程以及在阿里巴巴的应用，展开分享 Node.js 在同构场景的发展过程，业务落地面临的问题及如何解决。</p>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          凌 恒 @淘宝
+        </p>
+        <p class="title">Node.js 应用治理实践</p>
+        <p class="desc">随着 Node.js 应用的大规模普及，激发了很多人的创造力，但也同时带来了一些问题，比如：依赖版本碎片化、包安全等等。因此，在保障稳定运行的同时，把控对应用的治理，是我们的首要任务。本次分享主要介绍一些我们在做的事情。</p>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//img.alicdn.com/tfs/TB19UC3dQzoK1RjSZFlXXai4VXa-960-1280.png" alt="淘宝凌恒">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="//img.alicdn.com/tfs/TB1l4y6dRLoK1RjSZFuXXXn0XXa-1025-1027.png" alt="ThoughtWorks唐成">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          唐 成 @ThoughtWorks
+        </p>
+        <p class="title">细说 Node-FFI</p>
+        <p class="desc"> 过去的两年，越来越多的组织通过 Node.js 来完成业务的快速原型和概念验证。然⽽在设备侧，如何在资源有限的硬件环境中，通过更加轻量级的框架，使得动态类型的脚本语⾔更加方便的访问和控制系统底层接口，带来了许多新的问题，Node-FFI 作为解决方案中的佼佼者，提供了一种非常不错的思路。那么，Node-FFI 到底是如何实现的呢？《细说 Node-FFI》为你娓娓道来。</p>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          裴 伟 @腾讯SuperTeam
+        </p>
+        <p class="title">Tars.js 大规模商用实践与应用</p>
+        <p class="desc">“懒人”可以写大型异构服务吗？Tar.js的设计理念是框架分层可剥离设计，让平台解决大部分问题，并根据运营不断完善。让业务开发更关注业务逻辑，让运营面向单一、人性化的管理平台。本次分享主要介绍“懒人”不需要关心的平台架构设计。</p>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//img.alicdn.com/tfs/TB1X6i7dHPpK1RjSZFFXXa5PpXa-555-555.png" alt="腾讯SuperTeam裴伟">
+      </div>
+    </div>
+  </section>
+  <section id="arrangement" class="container">
+    <h1>
+      <i class="iconfont">&#xe600;</i>
+      <p>深圳·2018. 10. 13</p>
+      <p>阿里中心</p>
+    </h1>
+    <ul class="schedule">
+      <li>
+        <div class="item">
+          签 到
+          <span class="time">13:30 ~ 14:00 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          开 场
+          <span class="time">14:00 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          倞 羽 : 渲染服务化的前世今生
+          <span class="time">14:05 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          凌 恒 : Node.js 应用治理实践
+          <span class="time">14:35 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          唐 成 : 细说 Node-FFI
+          <span class="time">15:05 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          裴 伟 : Tars.js 大规模商用实践与应用
+          <span class="time">15:35 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          间 休
+          <span class="time">16:05 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          Node.js 新生态圆桌讨论
+          <span class="time">16:15 PM</span>
+        </div>
+      </li>
+      <li>
+        <div class="item last">
+          结 束
+          <span class="time">17:00 PM</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="position" class="container-fluid">
+    <div id="mapContainer"></div>
+    <div class="map-info">
+      <h1>
+        <i class="iconfont">&#xe601;</i> 位置
+      </h1>
+      <p>
+        深圳后海 · 阿里中心
+        <br />T4-3-6-E 天满城
+        <br />
+      </p>
+    </div>
+  </section>
+  <section id="history" class="container">
+    <h2>往期回顾</h2>
+    <ul class="history-list">
+      <li><a href="./season-1.html"><span>Node 地下铁沙龙 #1</span><span>《生产环境中的 Node.js》</span></a></li>
+      <li><a href="./season-2.html"><span>Node 地下铁沙龙 #2</span><span>《开往春天的 Node.js》</span></a></li>
+      <li><a href="./season-3.html"><span>Node 地下铁沙龙 #3</span><span>《八面玲珑的 Node.js》</span></a></li>
+      <li><a href="./season-4.html"><span>Node 地下铁沙龙 #4</span><span>《深入实践中的 Node.js》</span></a></li>
+      <li><a href="./season-5.html"><span>Node 地下铁沙龙 #5</span><span>《Ops First》</span></a></li>
+      <li><a href="./season-6.html"><span>Node 地下铁沙龙 #6</span><span>《企业级的 Node.js 实践》</span></a></li>
+    </ul>
+  </section>
+  <section id="partners" class="container-fluid">
+    <h2>合作伙伴</h2>
+    <ul class="partners-list">
+      <li>
+        <a href="javascript:void(0);" title="ThoughtWorks Community" class="partner-logo">ThoughtWorks Community</a>
+      </li>
+    </ul>
+    <p>以上排名不分先后</p>
+  </section>
+  <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=a7bb5844415139e00fad42739012f32e"></script>
+  <script src="//g.alicdn.com/tb/nodejs-club/0.0.71/bundle.js"></script>
+  <section class="footer container">
+    <div class="fed-logo iconfont">&#xe603;</div>
+    <div class="copyright">
+      <p class="rights">
+        Copyright © 2018 <a href="http://taobaofed.org/" title="Taobao FED">Taobao FED</a>. All rights reserved.
+        <script type="text/javascript">
+          var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1257009489'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257009489%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+      </p>
+    </div>
+  </section>
+  <div class="qrcode"></div>
+</body>
+
+</html>

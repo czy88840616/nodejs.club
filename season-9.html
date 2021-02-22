@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Node 地下铁沙龙</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//g.alicdn.com/tb/nodejs-club/0.0.88/bundle.css">
+</head>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="250">
+
+  <header class="navbar navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="logo iconfont">&#xe602;</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      </div>
+      <nav id="page-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="scroll" href="#introduce" title="沙龙介绍">沙龙介绍</a>
+          </li>
+          <li>
+            <a class="scroll" href="#speaker" title="分享嘉宾">分享嘉宾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#arrangement" title="活动流程">活动流程</a>
+          </li>
+          <li>
+            <a class="scroll" href="#position" title="沙龙地点">沙龙地点</a>
+          </li>
+          <li>
+            <a class="scroll" href="#history" title="往期回顾">往期回顾</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container-fluid">
+    <div class="hero-content container">
+      <p class="lead">
+        Node 地下铁沙龙 #9
+      </p>
+      <h1>
+        Let’s Go Deep!
+      </h1>
+    </div>
+    <a class="credit-badge" href="https://unsplash.com/@cristianpalmer?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Cristian Palmer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span>Cristian Palmer</span></a>
+  </section>
+  <section id="introduce" class="container">
+    <p>这是一次硬核的地下铁沙龙，</p>
+    <p>我们深入 Node.js 运行时底层，</p>
+    <p>来讨论如何进行运行时的优化和诊断，</p>
+    <p>让它可以在 Serverless，IoT 等等场景释放更大的价值。</p>
+    <br/>
+    <p>五位重量级的嘉宾，</p>
+    <p>有 Node.js 技术委员会（TSC）成员，</p>
+    <p>有来自浏览器厂商的骨灰级技术专家，</p>
+    <p>还有阿里、Rokid 的大牛，</p>
+    <br/>
+    <p>欢迎你和我们一起，进入深海。</p>
+    <a class="register" href="http://list.youku.com/albumlist/show/id_52277135.html"
+      title="观看视频" target="_blank">观看视频</a>
+  </section>
+  <section id="speaker" class="container">
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tfs/TB1RkPOdeP2gK0jSZFoXXauIVXa-640-640.jpg" alt="淘宝 凌恒">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          凌 恒 @淘宝
+        </p>
+        <p class="title">未正 · 阳向幽</p>
+        <p class="desc">Node.js 在工具，Web 应用领域中已经相对成熟，随着新概念的层出不穷，大家都在尝试探索更多新的场景。在淘宝，我们将 Node.js 作为前端投身 FaaS 浪潮的首要选择。过程中，我们看到了机遇，也感受到了现状的尴尬。到底 Node.js 能否在 FaaS 场景中产生价值，是我们探索的目标。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.9.HangZhou.Let%E2%80%99s%20Go%20Deep!/%E3%80%901.%20%E6%B7%98%E5%AE%9D-%E5%87%8C%E6%81%92%E3%80%91%E6%9C%AA%E6%AD%A3-%E9%98%B3%E5%90%91%E5%B9%BD.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          林作健 @UC
+        </p>
+        <p class="title">UC 浏览器对 V8 引擎的各种优化</p>
+        <p class="desc">UC 浏览器高级技术专家。UC 工作近 9 年的一线搬砖。主攻 JS 引擎和浏览器的疑难、性能和内存问题。UC 的 JS 引擎之所以被器重，是因为自身超越 Chromium 的可用性、更好的性能和更低的内存消耗。作健来分享一下这些年在引擎优化方面做了什么工作。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.9.HangZhou.Let%E2%80%99s%20Go%20Deep!/%E3%80%902.%20UC-%E6%9E%97%E4%BD%9C%E5%81%A5%E3%80%91UC%E5%AF%B9V8%E5%BC%95%E6%93%8E%E7%9A%84%E5%90%84%E7%A7%8D%E4%BC%98%E5%8C%96_v2.pdf" target="_blank">PPT</a>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tfs/TB1kKrPda61gK0jSZFlXXXDKFXa-640-640.jpg" alt="UC 林作健">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tfs/TB1Y.TLdmf2gK0jSZFPXXXsopXa-640-640.jpg" alt="阿里云 普冬">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          普 冬 @阿里云
+        </p>
+        <p class="title">深入浅出 Alinode</p>
+        <p class="desc">Alinode 核心开发成员，在 Node.js 的 Runtime 方面有深入的研究。分享关于 Alinode 当前的一些功能及实现以及未来一段时间关于堆外内存监控的方案。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.9.HangZhou.Let%E2%80%99s%20Go%20Deep!/%E3%80%903.%20%E9%98%BF%E9%87%8C%E4%BA%91-%E6%99%AE%E5%86%AC%E3%80%91%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAalinode.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          吴成忠 @Rokid
+        </p>
+        <p class="title">Optimize Node.js Performance with fork(2)</p>
+        <p class="desc">网名吞吞/@legendecas，来自 Rokid，Node.js Core 贡献者，嵌入式 JavaScript 引擎 JerryScript 贡献者，N-API 贡献者，目前作为 YodaOS 应用框架主要贡献者，本次分享主要是在 ShadowNode 与 Node.js 上使用 fork(2) 优化运行时性能的实践。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.9.HangZhou.Let%E2%80%99s%20Go%20Deep!/%E3%80%904.%20Rokid-%E5%90%9E%E5%90%9E%E3%80%91Using%20node%20with%20fork(2).pdf" target="_blank">PPT</a>
+      </div>
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tfs/TB153TKda67gK0jSZFHXXa9jVXa-640-640.jpg" alt="Rokid 吴成忠">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="//gw.alicdn.com/tfs/TB1BBTJdXT7gK0jSZFpXXaTkpXa-640-640.jpg" alt="Node.js TSC Joyee Cheung">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          Joyee Cheung @Node.js TSC
+        </p>
+        <p class="title">Node.js Core 的启动</p>
+        <p class="desc">Node.js 技术委员会（TSC）成员，Igalia Compilers 团队成员。分享关于 Node.js Core 的启动流程相关的话题以及正在进行的 V8 Snapshot 集成工作。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.9.HangZhou.Let%E2%80%99s%20Go%20Deep!/%E3%80%905.%20Igalia-Joyee_%E5%BC%A0%E7%A7%8B%E6%80%A1%E3%80%91bootstrap-of-node-core-subway.zh.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+  </section>
+  <section id="arrangement" class="container">
+    <h1>
+      <i class="iconfont">&#xe600;</i>
+      <p>2019. 09. 08</p>
+      <p>杭州</p>
+      <p>玉泉饭店</p>
+    </h1>
+    <ul class="schedule">
+      <li>
+        <div class="item">
+          签 到
+          <span class="time">13:30 ~ 14:00</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          开 场
+          <span class="time">14:00</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          凌 恒 : 未正 · 阳向幽
+          <span class="time">14:05</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          林作健 : UC 浏览器对 V8 引擎的各种优化
+          <span class="time">14:35</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          普 冬 : 深入浅出 Alinode
+          <span class="time">15:05</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          吴成忠 : Optimize Node.js Performance with fork(2)
+          <span class="time">15:35</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          Joyee Cheung: Node.js Core 的启动
+          <span class="time">16:05</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          间 休
+          <span class="time">16:35</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          Let's Go Deep 圆桌讨论
+          <span class="time">16:45</span>
+        </div>
+      </li>
+      <li>
+        <div class="item last">
+          结 束
+          <span class="time">17:30</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="position" class="container-fluid">
+    <div id="mapContainer"></div>
+    <div class="map-info">
+      <h1>
+        <i class="iconfont">&#xe601;</i>位置
+      </h1>
+      <p>
+        杭州
+        <br />
+        玉泉饭店
+      </p>
+    </div>
+  </section>
+  <section id="history" class="container">
+    <h2>往期回顾</h2>
+    <ul class="history-list">
+      <li><a href="./season-1.html"><span>Node 地下铁沙龙 #1</span><span>《生产环境中的 Node.js》</span></a></li>
+      <li><a href="./season-2.html"><span>Node 地下铁沙龙 #2</span><span>《开往春天的 Node.js》</span></a></li>
+      <li><a href="./season-3.html"><span>Node 地下铁沙龙 #3</span><span>《八面玲珑的 Node.js》</span></a></li>
+      <li><a href="./season-4.html"><span>Node 地下铁沙龙 #4</span><span>《深入实践中的 Node.js》</span></a></li>
+      <li><a href="./season-5.html"><span>Node 地下铁沙龙 #5</span><span>《Ops First》</span></a></li>
+      <li><a href="./season-6.html"><span>Node 地下铁沙龙 #6</span><span>《企业级的 Node.js 实践》</span></a></li>
+      <li><a href="./season-7.html"><span>Node 地下铁沙龙 #7</span><span>《Node.js 新生态》</span></a></li>
+      <li><a href="./season-8.html"><span>Node 地下铁沙龙 #8</span><span>《Let's Go Serverless!》</span></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript" src="//webapi.amap.com/maps?v=1.3&key=a7bb5844415139e00fad42739012f32e"></script>
+  <script src="//g.alicdn.com/tb/nodejs-club/0.0.88/bundle.js"></script>
+  <section class="footer container">
+    <div class="fed-logo iconfont">&#xe603;</div>
+    <div class="copyright">
+      <p class="rights">
+        Copyright © 2019 <a href="http://taobaofed.org/" title="Taobao FED">Taobao FED</a>. All rights reserved.
+        <script type="text/javascript">
+          var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+          document.write(unescape("%3Cspan id='cnzz_stat_icon_1257009489'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257009489%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+      </p>
+    </div>
+  </section>
+  <div class="qrcode"></div>
+</body>
+
+</html>
