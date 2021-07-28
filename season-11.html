@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Node 地下铁沙龙</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/bundle-s11.css">
+  <style>
+  @font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_frufewytdcg.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_frufewytdcg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_frufewytdcg.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_frufewytdcg.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_frufewytdcg.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_frufewytdcg.svg#AlibabaPuHuiTiL') format('svg'); /* iOS 4.1- */
+  }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#page-navbar" data-offset="250">
+  <div style="display: none;">
+    <img src="https://img.alicdn.com/imgextra/i4/O1CN01AdbNIf1TccQMEtGia_!!6000000002403-0-tps-4240-2384.jpg" id="wx_pic" />
+  </div>
+  <header class="navbar navbar-fixed-top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="logo iconfont">&#xe602;</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#page-navbar" aria-controls="page-navbar" aria-expanded="false">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      </div>
+      <nav id="page-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a class="scroll" href="#introduce" title="沙龙介绍">沙龙介绍</a>
+          </li>
+          <li>
+            <a class="scroll" href="#speaker" title="分享嘉宾">分享嘉宾</a>
+          </li>
+          <li>
+            <a class="scroll" href="#arrangement" title="活动流程">活动流程</a>
+          </li>
+          <li>
+            <a class="scroll" href="#position" title="沙龙地点">沙龙地点</a>
+          </li>
+          <li>
+            <a class="scroll" href="#history" title="往期回顾">往期回顾</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container-fluid" style="background-image: url(https://img.alicdn.com/imgextra/i4/O1CN01AdbNIf1TccQMEtGia_!!6000000002403-0-tps-4240-2384.jpg) !important;">
+    <div class="hero-content container">
+        <!--<p style="background-color: rgba(0,0,0,0.4);width: 50%;min-width: 1200px;left: 50%;transform: translate(-50%, 0);height: 50%;position: absolute;"></p>-->
+      <p class="lead" style="position: relative;">
+        Node 地下铁沙龙 #11
+      </p>
+      <h1 style="position: relative;">
+        从社区到企业级实践
+
+        <p style="font-size: 32px; font-weight: normal; margin-top: 10px; color: rgba(255, 255, 255, .85);">
+          武汉热干面专场
+        </p>
+      </h1>
+      
+    </div>
+    <a class="credit-badge" href="https://unsplash.com/@0asa?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free, beautiful high-quality photos curated by Vincent."><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span>Vincent Botta</span></a>
+  </section>
+  <section id="introduce" class="container">
+    <p>五月是一个好月份，五月的武汉也很漂亮。</p>
+    <p>2020 年，疫情肆虐，我们无奈停止了 Node 地下铁一段时间。</p>
+    <p>今年三月份我们重启了 Node 地下铁；</p>
+    <p>而今年五月，小满之际，我们决定与大家一起去见证一下武汉焕新的活力，在武汉举办一场热干面专场。</p>
+    <a class="register" href="#" onclick="javascript:alert('视频制作中。')" title="观看视频">观看视频</a>
+  </section>
+  <section id="speaker" class="container">
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i2/O1CN01T19irA27wO9Ijx25V_!!6000000007861-2-tps-421-421.png" alt="邹成卓">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          邹成卓 @腾讯 高级前端工程师
+        </p>
+        <p class="title">Node.js 在 TARS 微服务框架中的实践</p>
+        <p class="desc">TARS Node.js 是开源微服务框架 TARS 的 Node.js 语言部分，为 Node.js 服务端提供了一套完整的开发运维环境。包含了进程管理、日志输出、调用监控、特性监控、PRC 调用、快速扩缩容等功能，让 Node.js 开发者可以专注于业务代码，其它交给 TARS。<p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.11.Wuhan.%E4%BB%8E%E7%A4%BE%E5%8C%BA%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%AE%9E%E8%B7%B5/Node.js%20%E5%9C%A8%20TARS%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          刘子健 @淘宝 / Node.js Collaborator
+        </p>
+        <p class="title">Node.js & Midway.js 源码贡献指北</p>
+        <p class="desc">开源生态是现代软件开发中极其重要的组成部分，以 Node.js 为例，自发布以来持续有社区的开发者为其贡献代码。本次分享也将从 Node.js 源码出发，讲解其源码构成与贡献方式。同时我们也会讲解阿里巴巴的开源 Node.js 框架 Midway 开发方式，帮助新手更快的投入的社区开源项目的建设中。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.11.Wuhan.%E4%BB%8E%E7%A4%BE%E5%8C%BA%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%AE%9E%E8%B7%B5/Node.js%20%26%20Midway%20%E6%BA%90%E7%A0%81%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8C%97.pdf" target="_blank">PPT</a>
+      </div>
+      <div class="speaker-avatar">
+        <img src="https://gw.alicdn.com/imgextra/i2/O1CN01wWpMk51FdcfjA3lxY_!!6000000000510-2-tps-496-496.png" alt="繁易">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i1/O1CN01HTqxkt1fehcCOB9LS_!!6000000004032-2-tps-600-600.png" alt="王韬">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          王韬 @<a class="slide" href="https://www.wiredcraft.com/" target="_blank">Wiredcraft</a> 架构师
+        </p>
+        <p class="title">复杂系统的原理及其在 Node.js 系统开发中的应用</p>
+        <p class="desc">在软件行业，大量系统架构设计和工作流程设计还是基于经验或直觉，特定环境中特定决策的后果难以预测，团队成员的决策能力难以高效提升，我们需要用更加工程化的方式，做出高质量的决策。本次分享介绍一些复杂系统领域的基本原理，以及在使用 Node.js 进行开发中的应用。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.11.Wuhan.%E4%BB%8E%E7%A4%BE%E5%8C%BA%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%AE%9E%E8%B7%B5/%E5%A4%8D%E6%9D%82%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8E%9F%E7%90%86%E5%8F%8A%E5%85%B6%E5%9C%A8%20Node.js%20%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+    <div class="speaker-card inverse-card col-md-12">
+      <div class="speaker-intro">
+        <p class="job">
+          王干（KK） @有赞 技术专家
+        </p>
+        <p class="title">App Engine——一个轻量级的 Node.js 服务托管和调度平台</p>
+        <p class="desc">有赞 App Engine（应用引擎）是一套面向前端开发及运维的一站式 Node.js 服务容器化平台，为前端开发者提供统一和规范化的 Node.js 服务研发模式。本次分享将为大家介绍有赞 App Engine 的设计理念、实践总结以及背后的技术原理。</p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.11.Wuhan.%E4%BB%8E%E7%A4%BE%E5%8C%BA%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%AE%9E%E8%B7%B5/App%20Engine%E2%80%94%E2%80%94%E4%B8%80%E4%B8%AA%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84%20Node.js%20%E6%9C%8D%E5%8A%A1%E6%89%98%E7%AE%A1%E5%92%8C%E8%B0%83%E5%BA%A6%E5%B9%B3%E5%8F%B0.pdf" target="_blank">PPT</a>
+      </div>
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i2/O1CN01ZRRvIN1xOoxpN1NEe_!!6000000006434-0-tps-4776-4776.jpg_640x640.jpg" alt="王干">
+      </div>
+    </div>
+    <div class="speaker-card normal-card col-md-12">
+      <div class="speaker-avatar">
+        <img src="https://img.alicdn.com/imgextra/i2/O1CN013FUcz523MszC6FLwA_!!6000000007242-0-tps-558-558.jpg" alt="赵珊珊">
+      </div>
+      <div class="speaker-intro">
+        <p class="job">
+          赵珊珊（西临） @蚂蚁集团 前端专家
+        </p>
+        <p class="title">JavaScript 全栈高效研发在语雀中的实践</p>
+        <p class="desc">
+          语雀作为一个复杂的 Node.js 应用，如何以小规模的研发团队支撑业务的快速发展是我们不断探索的命题。这几年，我们在业务实践中总结出了一些能够有效保障研发效率的全栈开发经验，本次分享将为大家一一介绍。
+        </p>
+        <a class="slide" href="https://github.com/midwayjs/subway-station/raw/master/No.11.Wuhan.%E4%BB%8E%E7%A4%BE%E5%8C%BA%E5%88%B0%E4%BC%81%E4%B8%9A%E7%BA%A7%E5%AE%9E%E8%B7%B5/JavaScript%20%E5%85%A8%E6%A0%88%E2%BE%BC%E6%95%88%E7%A0%94%E5%8F%91%E5%9C%A8%E8%AF%AD%E9%9B%80%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5.pdf" target="_blank">PPT</a>
+      </div>
+    </div>
+  </section>
+  <section id="arrangement" class="container" style="height: 1000px;">
+    <h1>
+      <i class="iconfont">&#xe600;</i>
+      <p>武汉·2021-05-23（星期日）</p>
+      <p>保利国际中心 35 层 P1-2</p>
+    </h1>
+    <ul class="schedule">
+      <li>
+        <div class="item">
+          签到
+          <span class="time">13:00 ~ 13:30</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          开场
+          <span class="time">13:30 ~ 13:40</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          邹成卓：《Node.js 在 TARS 微服务框架中的实践》
+          <span class="time">13:40</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          刘子健（繁易）：《Node.js & Midway.js 源码贡献指北》
+          <span class="time">14:20</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          间休
+          <span class="time">15:00 ~ 15:10</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          王韬：《复杂系统的原理及其在 Node.js 系统开发中的应用》
+          <span class="time">15:10</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          王干：《App Engine——一个轻量级的 Node.js 服务托管和调度平台》
+          <span class="time">15:50</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          间休
+          <span class="time">16:30 ~ 15:35</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          赵珊珊（西临）：《JavaScript 全栈高效研发在语雀中的实践》
+          <span class="time">16:35</span>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          武汉 Node.js 圆桌讨论 + 抽奖
+          <span class="time">17:15</span>
+        </div>
+      </li>
+      <li>
+        <div class="item last">
+          结束
+          <span class="time">17:45</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section id="position" class="container-fluid">
+    <div id="mapContainer"></div>
+    <div class="map-info">
+      <h1>
+        <i class="iconfont">&#xe601;</i>位置
+      </h1>
+      <p>
+        武汉·光谷
+        <br />
+        保利国际中心
+      </p>
+    </div>
+  </section>
+  <!--<section id="position-new" class="container" style="text-align: center;">
+    <h2 style="text-align: center;">沙龙地点（直播会场）</h2>
+    <img src="https://img.alicdn.com/imgextra/i4/O1CN01PfdhUK1bFjXaIZL3n_!!6000000003436-2-tps-2772-942.png" style="width: 100%;vertical-align: top;">
+  </section>-->
+  <section id="history" class="container">
+    <h2>往期回顾</h2>
+    <ul class="history-list">
+      <li><a href="./season-1.html"><span>Node 地下铁沙龙 #1</span><span>《生产环境中的 Node.js》</span></a></li>
+      <li><a href="./season-2.html"><span>Node 地下铁沙龙 #2</span><span>《开往春天的 Node.js》</span></a></li>
+      <li><a href="./season-3.html"><span>Node 地下铁沙龙 #3</span><span>《八面玲珑的 Node.js》</span></a></li>
+      <li><a href="./season-4.html"><span>Node 地下铁沙龙 #4</span><span>《深入实践中的 Node.js》</span></a></li>
+      <li><a href="./season-5.html"><span>Node 地下铁沙龙 #5</span><span>《Ops First》</span></a></li>
+      <li><a href="./season-6.html"><span>Node 地下铁沙龙 #6</span><span>《企业级的 Node.js 实践》</span></a></li>
+      <li><a href="./season-7.html"><span>Node 地下铁沙龙 #7</span><span>《Node.js 新生态》</span></a></li>
+      <li><a href="./season-8.html"><span>Node 地下铁沙龙 #8</span><span>《Let's Go Serverless!》</span></a></li>
+      <li><a href="./season-9.html"><span>Node 地下铁沙龙 #9</span><span>《Let's Go Deep!》</span></a></li>
+      <li><a href="./season-10.html"><span>Node 地下铁沙龙 #10</span><span>《Let's Imagine 2021》</span></a></li>
+    </ul>
+  </section>
+  <section id="partners" class="container-fluid">
+    <h2>合作伙伴</h2>
+    <ul class="partners-list">
+      <li>
+        <a target="_blank" href="https://www.youzan.com/" title="有赞" class="partner-logo">有赞</a>
+      </li>
+    </ul>
+  </section>
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=a7bb5844415139e00fad42739012f32e"></script>
+  <script src="./bundle-11.js"></script>
+  <section class="footer container">
+    <div class="fed-logo iconfont">&#xe603;</div>
+    <div class="copyright">
+      <p class="rights">
+        Copyright © 2021 <a href="https://fed.taobao.org/" title="Taobao FED">Taobao FED</a>. All rights reserved.
+      </p>
+    </div>
+  </section>
+  <div class="qrcode"></div>
+</body>
+
+</html>
